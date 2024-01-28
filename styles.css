@@ -1,0 +1,213 @@
+ 
+body {
+    margin: 0;
+    font-family:sans-serif;
+}
+
+nav {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+nav a:hover {
+  
+    color:rgb(116, 9, 215);
+    
+}
+
+.git-button {
+    background-color:black;
+    color:white;
+    border: 2px solid rgb(116, 9, 215);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.git-button:hover {
+    background-color:rgb(116, 9, 215);
+    color:aliceblue;
+}
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color:BLACK;
+}
+
+.profile-image {
+    max-width: 30%;
+    border-radius:400%;
+    padding:5px;
+    border: 5px solid #fff; /* Add border styling */
+
+}
+.profile-image:hover{
+    border: 2PX solid rgb(116, 9, 215);
+}
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    background-color:black;
+    color:#fff;
+}
+
+.intro-text {
+    max-width: 70%;
+}
+
+.intro-text h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding:5px;
+}
+
+.intro-text p1 {
+    font-size: 2em;
+    color:rgb(116, 9, 215);
+}
+.intro-text p2 {
+    font-size: 1.3em;
+}
+.resume-button {
+    margin-top: 40px;
+    background-color:  rgb(116, 9, 215);
+    color: #fff;
+    padding:10px 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.8em;
+    text-decoration: none;
+    cursor: pointer;
+     
+}
+
+.resume-button:hover {
+    background-color: rgb(116, 9, 215);
+
+}
+.skills-section {
+    padding: 50px;
+    background-color:rgb(25, 23, 23); 
+    text-align: center;
+}
+
+.skills-card {
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px  rgb(116, 9, 215);
+    border-radius: 10px;
+    background-color:black;
+    color: #fff;
+    text-align: left;
+    
+}
+
+.skills-card h2 {
+    font-size: 1.5em;
+    padding: 10px;
+    height: 40%;
+    width:50%
+}
+
+.skill-box {
+    background-color: violet;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+
+}
+.experience-section {
+    padding: 50px;
+    background-color: #000;
+    text-align: center;
+    border-color: rgb(116, 9, 215);
+    
+}
+
+.experience-card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #1c1c1c; /* Dark gray background */
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px  rgb(116, 9, 215) ;
+    
+}
+
+.experience-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color:rgb(116, 9, 215);
+}
+
+.experience-card p {
+    font-size: 1.2em;
+    border-left: 2px solid violet; /* Violet border for paragraphs */
+    padding-left: 15px;
+    margin: 10px 0;
+}
+
+.projects-section {
+    padding: 50px;
+    background-color:#000;
+    text-align: center;
+}
+
+.project-card {
+        width:300px;
+        padding: 20px;
+        margin: 20px;
+        border: 2px solid #ac2aae; /* Border color for project cards */
+        border-radius: 10px;
+        background-color:#000;
+        color:#f0f0f0;
+        text-align:center;
+        box-shadow: 0 4px 8px  rgb(116, 9, 215) ;
+        display:inline-block;
+       
+    }
+.project-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-card img {
+    max-width:100%;
+    height:max-content;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-links a {
+    display: block;
+    margin-top: 10px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-links a:hover {
+    color: #9c2598;
+}
+button{
+    background-color:rgb(116, 9, 215);
+    color:white;
+    padding: 10px;
+}
