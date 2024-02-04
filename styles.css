@@ -82,7 +82,7 @@ nav a:hover {
 }
 .resume-button {
     margin-top: 40px;
-    background-color:  rgb(116, 9, 215);
+    background-color: rgb(116, 9, 215);
     color: #fff;
     padding:10px 10px;
     border: none;
@@ -94,8 +94,12 @@ nav a:hover {
 }
 
 .resume-button:hover {
-    background-color: rgb(116, 9, 215);
-
+    background-color:#c164e8;
+}
+.resume-button:active {
+    background-color: #833b9d;
+    box-shadow: 0 5px #de89d3;
+    transform: translateY(4px);
 }
 .skills-section {
     padding: 50px;
@@ -198,14 +202,15 @@ nav a:hover {
 .project-links a {
     display: block;
     margin-top: 10px;
-    color: #000;
+    color:white;
     text-decoration: none;
     font-weight: bold;
 }
 
 .project-links a:hover {
-    color: #9c2598;
-}
+     padding-right: 25px;
+}  
+
 button{
     background-color:rgb(116, 9, 215);
     color:white;
