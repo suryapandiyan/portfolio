@@ -216,3 +216,40 @@ button{
     color:white;
     padding: 10px;
 }
+footer {
+    background-color: #131010;
+    color: #fff;
+ 
+    text-align: center;
+}
+
+footer div {
+    margin-bottom: 0px;
+}
+
+footer h3 {
+    color: #8730d8; /* Yellow color for heading */
+}
+
+/*footer p {
+    margin: 5px 0;
+}
+*/
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    
+    
+}
+
+footer a {
+    color: #ddd7e1; /* Yellow color for links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
