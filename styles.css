@@ -80,27 +80,75 @@ nav a:hover {
 .intro-text p2 {
     font-size: 1.3em;
 }
-.resume-button {
-    margin-top: 40px;
-    background-color: rgb(116, 9, 215);
-    color: #fff;
-    padding:10px 10px;
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
     border: none;
-    border-radius: 8px;
-    font-size: 1.8em;
-    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: #bc13ab;
     cursor: pointer;
-     
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+   
+}
+.glow-on-hover a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    
 }
 
-.resume-button:hover {
-    background-color:#c164e8;
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+ 
 }
-.resume-button:active {
-    background-color: #833b9d;
-    box-shadow: 0 5px #de89d3;
-    transform: translateY(4px);
+
+.glow-on-hover:active {
+    color: #d22ad5;
 }
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+   
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+ 
 .skills-section {
     padding: 50px;
     background-color:rgb(25, 23, 23); 
